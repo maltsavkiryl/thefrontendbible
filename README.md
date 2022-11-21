@@ -173,5 +173,33 @@ export const formatDate = (date: DateType | string) => {
 };
 ```
 
+### Smart vs Dumb components
+Aka container components vs presentational components.
+
+Why? TODO
+
+- Smart components (container)
+  - inject all of your stores, router, services, ... 
+  - Contain heavy business logic
+  - Contain little to no presentation logic in their template
+- Dumb components (presentational)
+  - Pure input & output (props & emits)
+  - Never contain any injection of a router, store, service, ... 
+  - Are focused on rendering data, handling user interaction and emitting events
+  
+### Wrapping libraries
+When using a library for components, validation, etc. It's always really smart to create a wrapper around it. This will:
+- Help you control and clean up the API so that only the necessary options are exposed.
+- Give you the opportunity to cusomize them and add functionalty. 
+- If you every decide to switch the library or are required to create your own custom implementation, you already have the API defined and every usage of that component doesn't have to change.
+
+
+### Solid principles & examples
+#### Single responsiblity
+#### Open closed
+#### Liskov subsitition
+#### Interface segregation
+#### Dependency inversion
+
 
 
