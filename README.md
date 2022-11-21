@@ -1,4 +1,4 @@
-# thefrontendbible
+# The Frontend Bible
 
 This document will be contains the guideline of how frontend develop should be done. period. Masterfully crafted frontend’s are a pain in the ass to create because everything in the frontend is a feature. Nothing is impossible so this document will set some ground rules for easy to understand code, simple conventions, consistency, tips & tricks, design patterns, anti patterns, … 
 
