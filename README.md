@@ -193,6 +193,29 @@ When using a library for components, validation, etc. It's always really smart t
 - Give you the opportunity to cusomize them and add functionalty. 
 - If you every decide to switch the library or are required to create your own custom implementation, you already have the API defined and every usage of that component doesn't have to change.
 
+### Booleans
+Always prefix your boolean variables with `is` or `has`.
+
+### HTML tags
+
+- <section>This is used as a wrapper for big pieces of code</section>
+- <article>This is used as a wrapper for a single item in a section</article>
+- h1, h2, h3,
+- <p>This is used for text and paragraphs</p>
+- <span>Text</span>
+- <a href='www.usemeforlinks.please'>
+
+### Props
+TODO
+
+### Emits
+Use the Typescript constructor
+Call your variable `emit`. Because it is a verb and action, not a list.
+
+Example:
+```Typescript
+const emit = defineEmits<{(e: 'change', value: Person)}>();
+```
 
 ### Solid principles & examples
 #### Single responsiblity
@@ -201,5 +224,22 @@ When using a library for components, validation, etc. It's always really smart t
 #### Interface segregation
 #### Dependency inversion
 
+### Wrinting clean functions
+- Max of 4 params
+- No flags
+- Max 10 lines
+- Keep em pure if possible
+- Single responsibility
+- The longer the function name the better. 
+- Functional 
+- Extract duplicate code to private functions.
+- 
 
+### Code reviews
+Knowledge sharing is the main priority.
+
+### Testing
+#### Unit test
+#### Integration test
+#### E2E test
 
