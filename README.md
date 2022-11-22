@@ -10,11 +10,13 @@ This document contains guidelines of how frontend develop should be done. Master
 Please just fucking use typescript.
 
 ### Table of Contents
-**[Installation Instructions](#installation-instructions)**<br>
-**[Installation Instructions](#installation-instructions)**<br>
-**[Installation Instructions](#installation-instructions)**<br>
-**[Installation Instructions](#installation-instructions)**<br>
-**[Installation Instructions](#installation-instructions)**<br>
+**[Naming conventions](naming-conventions.md)**<br>
+**[Project structure](project-structure.md)**<br>
+**[Clean components](clean-components.md)**<br>
+**[Composables](composables.md)**<br>
+**[Form validation](form-validation.md)**<br>
+**[Design patterns](design-patterns.md)**<br>
+**[Testing](testing.md)**<br>
 
 ### Naming conventions
 You know what’s the most annoying thing in programming? Naming things. Period. So let’s get ourselves some standards going.
