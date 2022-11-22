@@ -13,3 +13,6 @@ Why? TODO
   - Pure input & output (props & emits)
   - Never contain any injection of a router, store, service, ... 
   - Are focused on rendering data, handling user interaction and emitting events
+
+
+[Back to intro](README.md)
