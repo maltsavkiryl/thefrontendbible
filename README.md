@@ -19,42 +19,5 @@ Please just fucking use typescript.
 **[Utils](utils.md)**<br>
 **[Form validation](form-validation.md)**<br>
 **[Design patterns](design-patterns.md)**<br>
+**[Team work makes the dream work](team-work-makes-the-dream-work.md)**<br>
 **[Testing](testing.md)**<br>
-
-### HTML tags
-
-- <section>This is used as a wrapper for big pieces of code</section>
-- <article>This is used as a wrapper for a single item in a section</article>
-- h1, h2, h3,
-- <p>This is used for text and paragraphs</p>
-- <span>Text</span>
-- <a href='www.usemeforlinks.please'>
-
-### Props
-TODO
-
-### Emits
-Use the Typescript constructor
-Call your variable `emit`. Because it is a verb and action, not a list.
-
-Example:
-```Typescript
-const emit = defineEmits<{(e: 'change', value: Person)}>();
-```
-
-
-### Code reviews
-Knowledge sharing is the main priority.
-
-### Testing
-#### Unit test
-#### Integration test
-#### E2E test
-
-### Histoire TODO
-
-- Why
-- Docs
-- Variants
-- Examples
-

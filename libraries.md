@@ -12,3 +12,5 @@ When using a library for components, validation, etc. It's always really smart t
 - Help you control and clean up the API so that only the necessary options are exposed.
 - Give you the opportunity to cusomize them and add functionalty.
 - If you every decide to switch the library or are required to create your own custom implementation, you already have the API defined and every usage of that component doesn't have to change.
+
+[Back to intro](README.md)

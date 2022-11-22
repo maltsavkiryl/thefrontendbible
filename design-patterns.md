@@ -98,3 +98,5 @@ const result = stringBuilder
 
 console.log(result); // output: TestWisemenCoolChaining!Great times!
 ```
+
+[Back to intro](README.md)
