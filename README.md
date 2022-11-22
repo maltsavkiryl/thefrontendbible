@@ -1,6 +1,6 @@
 # The Frontend Bible
 
-This document contains guidelines of how frontend develop should be done. Masterfully crafted frontend’s are a pain in the ass to create because everything in the frontend is a feature. No problem because we will set some ground rules to help us develop easy to understand code, simple conventions, consistency, tips & tricks, design patterns, anti patterns, … 
+This document contains guidelines of how frontend development should be done. Masterfully crafted frontend’s are a pain in the ass to create because everything in the frontend is a feature. No problem because we will set some ground rules to help us develop easy to understand code, simple conventions, consistency, tips & tricks, design patterns, anti patterns, … 
 
 ### The frontend club
 - Rule number one of the frontend club is that you have to use Typescript. No exceptions.
