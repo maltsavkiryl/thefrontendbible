@@ -9,6 +9,13 @@ This document contains guidelines of how frontend develop should be done. Master
 
 Please just fucking use typescript.
 
+### Table of Contents
+**[Installation Instructions](#installation-instructions)**<br>
+**[Installation Instructions](#installation-instructions)**<br>
+**[Installation Instructions](#installation-instructions)**<br>
+**[Installation Instructions](#installation-instructions)**<br>
+**[Installation Instructions](#installation-instructions)**<br>
+
 ### Naming conventions
 You know what’s the most annoying thing in programming? Naming things. Period. So let’s get ourselves some standards going.
 
