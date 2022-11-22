@@ -34,5 +34,33 @@ A great way to quickly find things in your IDE is being searching directly by fi
 | **translation key**        | snake_case           | `my_key`               |
 | **route paths**            | kebab-case           | `/example-route`       |
 
+### Component names
+
+#### Two words.
+Always. and I do mean always. Give. Your. Components. Two. Word. Names.
+
+❌ Bad examples
+- Table.vue
+- Button.vue
+- Input.vue
+
+✅ Good exampels
+- BaseTable.vue
+- AppButton.vue
+- FormInput.vue
+
+#### The longer the better 🍆
+When creating components that are tightly coupled with a view or module. Always prefix your component with the name of the module.
+
+❌ Bad examples
+- InformationStep.vue
+- Calendar.vue
+- DetailInformation.vue
+
+✅ Good exampels
+- ClientUpdateInformationStep.vue
+- ContractCreateCalendar.vue
+- EmployeeDetailInformation.vue
+
 
 [Back to intro](README.md)
