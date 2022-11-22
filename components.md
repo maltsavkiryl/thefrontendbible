@@ -1,4 +1,4 @@
-# Clean components
+# Writing components for dummies
 
 ### Smart vs Dumb components
 Aka container components vs presentational components.

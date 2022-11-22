@@ -12,7 +12,8 @@ Please just fucking use typescript.
 ### Table of Contents
 **[Naming conventions](naming-conventions.md)**<br>
 **[Project structure](project-structure.md)**<br>
-**[Clean components](clean-components.md)**<br>
+**[Writing components for dummies](components.md)**<br>
+**[Clean code](components.md)**<br>
 **[Composables](composables.md)**<br>
 **[Libraries](libraries.md)**<br>
 **[Utils](utils.md)**<br>
@@ -41,16 +42,6 @@ Example:
 const emit = defineEmits<{(e: 'change', value: Person)}>();
 ```
 
-### Wrinting clean functions
-- Max of 4 params
-- No flags
-- Max 10 lines
-- Keep em pure if possible
-- Single responsibility
-- The longer the function name the better. 
-- Functional 
-- Extract duplicate code to private functions.
-- 
 
 ### Code reviews
 Knowledge sharing is the main priority.
