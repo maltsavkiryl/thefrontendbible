@@ -68,20 +68,6 @@ export const formatDate = (date: DateType | string) => {
   return dayjs(date).format("DD/MM/YYYY");
 };
 ```
-
-### Smart vs Dumb components
-Aka container components vs presentational components.
-
-Why? TODO
-
-- Smart components (container)
-  - inject all of your stores, router, services, ... 
-  - Contain heavy business logic
-  - Contain little to no presentation logic in their template
-- Dumb components (presentational)
-  - Pure input & output (props & emits)
-  - Never contain any injection of a router, store, service, ... 
-  - Are focused on rendering data, handling user interaction and emitting events
   
 ### Wrapping libraries
 When using a library for components, validation, etc. It's always really smart to create a wrapper around it. This will:
