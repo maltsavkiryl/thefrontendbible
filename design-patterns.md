@@ -4,7 +4,9 @@
 ## SOLID Principles
 
 ### Single responsibility
+> A class should have one, and only one, reason to change.
 
+If our classes assume multiple responsibilities, they will be highly coupled thus making them more difficult to maintain.
 
 
 ### Open closed
@@ -47,6 +49,22 @@ const personFilter = (persons: Person[], propName: string): Person[] => {
 }
 ```
   
-  
-  
+### Liskov substitution Principles
+> Subclasses should be substitutable for their base class.
+
+
+### Interface Segregation Principle
+> Clients should not be forced to depend upon interfaces that they don't use.
+
+### Dependency Inversion Principles
+
+> High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.
+
+DIP helps us reduce or eliminate tight coupling between modules in our code through the use of abstractions.
+
+At its core, the principle advocates for two things.
+
+The first is that essential policies and business logic should not depend on low-level, volatile details such as a database connection or file system.
+
+Second, these lower-level concerns and components should be loosely coupled and reusable through meaningful abstractions.
  
