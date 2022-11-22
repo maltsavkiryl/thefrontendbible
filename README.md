@@ -243,3 +243,10 @@ Knowledge sharing is the main priority.
 #### Integration test
 #### E2E test
 
+### Histoire TODO
+
+- Why
+- Docs
+- Variants
+- Examples
+
