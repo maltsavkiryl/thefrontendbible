@@ -1,5 +1,4 @@
-#Project Structure
-
+# Project Structure
 The recommend project structure for medium to large application is a hybrid between the split-by-type and split-by-module. All the folders in the `src` (root) contain shared code. (
 services, stores, types, ...)
 
@@ -74,3 +73,4 @@ It's also a good practice to give each component it's own folder so that you can
 - ...
 ```
 
+[Back to intro](README.md)
